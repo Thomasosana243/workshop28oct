@@ -12,7 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  background: #f70202 url(https://safariavventura.com/wp-content/uploads/2023/05/Lion-Africain-1200x480.jpg) center top/cover no-repeat content-box;
 
+
+}
 a {
   font-weight: 500;
   color: #646cff;
