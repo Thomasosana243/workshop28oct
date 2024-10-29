@@ -1,6 +1,5 @@
 import "./Components/NavBar.css";
-
-import Navbar from "./Components/NavBar";
+import Navbar from "./Components/Navbar.tsx";
 
 function App() {
   const userInfo = {
