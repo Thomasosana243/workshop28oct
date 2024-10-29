@@ -1,0 +1,37 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.imgsize {
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  width: 50vh;
+}
+
+.imgclass {
+  display: none;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.imgclass.active {
+  display: block;
+  opacity: 1;
+}
+
+.carousel-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
