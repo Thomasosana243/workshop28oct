@@ -1,0 +1,14 @@
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(105, 114, 110, 0.546);
+}
+li {
+  list-style-type: none;
+}
